@@ -5,15 +5,7 @@
           color:rgb(170,0,0);
           font-size: 80;
           font-family: "Arial Black", Gadget, sans-serif;
-        
-          
-        .Deadline{
-            
-            padding: 0c 0c 0cm 190mm;
-            font-size: 30;
-            
-            
-        }  
+
           
           
           
@@ -63,9 +55,12 @@
    list-style: none;
         }
         
-       .body1 {
+       body {
            background-image:url("https://i.imgur.com/q0pyMUz.png")
        }
+       
+       
+       
        input[type=text] {
            
     width: 100%;
