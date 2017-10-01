@@ -15,17 +15,11 @@
 <h2><u><%=@todo.description%></u></h2>
 
 
-<h1 id=>Pomodoro Estimate: <%=@todo.pomodoro_estimate%></h1>
+<h1 id=>Pomodoro Estimate: <%=@todo.pomodoro_estimate%></h>
 
 
+<a href="/todo/edit/<%=@todo.id%>">Edit</a>
+<br>
+<a href="/todo/index">Back</a>
 
-<input class="button" type="submit" value="Edit">
-<form method="get" action="test.html">
-    <button type="submit">test</button>
-</form>
-<br>
-<br>
-<br>
-<input class="button" type="submit" value="Back">
-</body>
 
