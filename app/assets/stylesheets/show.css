@@ -1,0 +1,95 @@
+ #dingo{
+          padding: 0cm 0cm 0cm 13cm;
+          color:rgb(170,0,0);
+          font-size: 80;
+          font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+            
+            
+          
+            
+          
+        h2{
+          padding: 0cm 0cm 0cm 143mm;
+          color:rgb(100,0,0);
+          font-size: 30;
+          font-family: "Arial Black", Gadget, sans-serif;
+          background-color:white;
+          	border-radius:12px;
+        } 
+        
+
+        
+        li{
+            
+            color:black;
+            font-family:Tahoma, Geneva, sans-serif;
+            border: 4px black;
+            border-style:solid solid none none;
+            padding: .3cm .1cm;
+            margin: 21px;
+            font-size: 20;
+            background-color:white;
+            border-radius:15px;
+            
+        }
+        
+        
+        ul {
+    padding: .5cm 1cm 15cm 2cm;
+   background-color:rgb(0,0,0);
+   border: 5px solid black;
+   border-radius:42px;
+   border-style:double solid none none;
+   background-image:url("https://i.imgur.com/7ms0b6z.png");
+   list-style: none;
+        }
+        
+       body {
+           background-image:url("https://i.imgur.com/vuR5yB1.png")
+       }
+       
+       
+       
+       input[type=text] {
+           
+    width: 100%;
+    padding: 12px 1px;
+    margin: 8px 0;
+    border: 5px solid black;
+    border-radius:12;
+       }
+     input[type=number] {
+           
+    width: 100%;
+    padding: 6px 1px;
+    margin: 4px 0;
+    border: 2.5px solid black;
+    border-radius:6;
+       }
+       
+       
+       button {
+           
+     width: 100%;       
+       
+       
+       
+           
+       }
+    input[type=button] {
+        
+       width: 100%;  
+        
+        
+    }   
+    
+    input[type=checkbox] {
+    
+    
+    float: left;
+    text-align: left
+    
+    }

@@ -1,41 +1,24 @@
 <html>
   <head>
       <title>Bingo Bongo</title>
-      <link rel="stylesheet" href="/index.css">
+      <%= stylesheet_link_tag 'index', media: 'print, screen' %>
 </head>
 <body>
 <img src="https://i.imgur.com/DWXcxaF.png" id="dingo"></img>
 
 <h2><u>To do list</u></h2>
 <ul id="list">
-<li><input type=checkbox><a href= "show/1">Wake up</a><span class="pomodoro-estimate"> |1 Pomodoro</span></li> 
-<li><input type=checkbox><a href= "show/2">Get out of bed</a> <span class="pomodoro-estimate"> |2 Pomodoro</span></li> 
-<li><input type=checkbox><a href= "show/3">No seriously get out of bed</a><span class="pomodoro-estimate"> |3 Pomodoro</span></li>
-<li><input type=checkbox><a href= "show/4">Make website not look like it's from the 90s</a><span class="pomodoro-estimate"> |6 Pomodoro</span></li>
+
+<% @todos.each do |todo| %>
+
+
+<li><a href= "/todo/show/<%= todo.id %>"><%= todo.description %></a><span class="pomodoro-estimate"> |<%= todo.pomodoro_estimate %> Pomodoro</span></li>
+
+<% end %>  
 
 
 </ul>
 
-
-<div id="new-todo-block">
-
-
-<input class="text-input" id="idea" type="text" placeholder="Add a new todo...">
-<input class="text-input" id="idea" type="number" placeholder="Pomodoro Estimate...">
-<input class="button" class="myButton" type="submit" value="add to list" >
-
-</div>
-
-
-
-<br>
-<br>
-<br>
-<br>
-
-<br><br><br><br><br><br><br><form method="get" action="test.html">
-    <button type="submit">test</button>
-</form>
 
 </body>
 
