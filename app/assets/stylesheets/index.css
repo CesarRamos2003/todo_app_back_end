@@ -8,20 +8,14 @@
 
 }
 
-          
-          
-          
-
-        
-        br{
-            
-            background-color:rgb(0,0,0);
             
             
-        }
+          
+            
+}
           
         h2{
-          padding: 0cm 0cm 0cm 190mm;
+          padding: 0cm 0cm 0cm 143mm;
           color:rgb(100,0,0);
           font-size: 30;
           font-family: "Arial Black", Gadget, sans-serif;
@@ -56,7 +50,7 @@
    list-style: none;
         }
         
-       body {
+       .body {
            background-image:url("https://i.imgur.com/q0pyMUz.png")
        }
        
@@ -104,7 +98,7 @@
     }
     
     
-   .myButton {
+   .add-new-todo-button {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #a1a1a1));
 	background:-moz-linear-gradient(top, #f0f0f0 5%, #a1a1a1 100%);
 	background:-webkit-linear-gradient(top, #f0f0f0 5%, #a1a1a1 100%);
@@ -126,7 +120,7 @@
 	text-decoration:none;
 	text-shadow:0px -2px 4px #ffffff;
 }
-.myButton:hover {
+.add-new-todo-button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a1a1a1), color-stop(1, #f0f0f0));
 	background:-moz-linear-gradient(top, #a1a1a1 5%, #f0f0f0 100%);
 	background:-webkit-linear-gradient(top, #a1a1a1 5%, #f0f0f0 100%);
@@ -136,7 +130,7 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1a1a1', endColorstr='#f0f0f0',GradientType=0);
 	background-color:#a1a1a1;
 }
-.myButton:active {
+.add-new-todo-button:active {
 	position:relative;
 	top:1px;
 }

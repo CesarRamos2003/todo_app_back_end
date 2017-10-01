@@ -11,9 +11,9 @@ get 'todo/copypaste', to: 'todo#copypaste'
 
 get 'todo/show/:id', to: 'todo#show'
 
+get 'todo/new', to: 'todo#new'
 
-
-
+get 'todo/create', to: 'todo#create'
 
 
 end
