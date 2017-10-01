@@ -20,6 +20,21 @@
           	border-radius:12px;
         } 
         
+        #todohead{
+            margin: auto;
+            width: 15%;
+           color:rgb(170,0,0);
+          font-size: 40;
+          font-family: "Arial Black", Gadget, sans-serif;
+        }
+
+        img{
+
+        margin: auto;
+        width: 10%;
+
+}
+
 
         
         li{
