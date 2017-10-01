@@ -1,16 +1,24 @@
 
 
-<%= stylesheet_link_tag :cssone %>
 
 
-
+<style>
+    
+  body{
+      
+      background-image: url('https://i.imgur.com/vuR5yB1.png');
+  }  
+  img{
+    
+    padding:0, 0, 0, 10;
+</style>
 
 <h1>Todo #<%= params[:id] %></h1>
 
 
 
 
-<body style="background-image: url('<%=@backgroundimage %>');">
+<body>
 
 
 
@@ -18,11 +26,10 @@
 <img src="https://i.imgur.com/mDGefrP.png" style="width:500px"></igit mg>
 
 
-<h2><u><%=@todo_description%></u></h2>
-<p>Don't actually do this, 90s sites are the best sites</p>
+<h2><u><%=@todo.description%></u></h2>
 
 
-<h1 id=>Pomodoro Estimate: <%=@pomo_est%></h2>
+<h1 id=>Pomodoro Estimate: <%=@todo.pomodoro_estimate%></h2>
 
 
 
